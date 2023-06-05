@@ -367,9 +367,6 @@ class ImageProcessor(QMainWindow):
         mask_red_2 = cv2.inRange(self.cv_img, lower_red_2, upper_red_2)
         mask = cv2.add(mask_red_1, mask_red_2)"""
 
-        """lower_red = np.array([30, 150, 50])
-        upper_red = np.array([255, 255, 180])"""
-
         lower_blue = np.array([80, 50, 50])
         upper_blue = np.array([120, 255, 255])
 
